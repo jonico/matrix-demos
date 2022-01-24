@@ -1,0 +1,4 @@
+[begin] (  Application Menu  )
+    [exec] (Start PlanetScale Visualization GUI) { tilix -w $GITHUB_WORKSPACE -e /bin/bash -il ./start-gui-hosted.sh } <>
+    [exec] (Terminal) { tilix -w $GITHUB_WORKSPACE -e /bin/bash -il } <>
+[end]
